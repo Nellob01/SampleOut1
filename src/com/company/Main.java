@@ -43,7 +43,7 @@ public class Main {
 
                 System.out.println("Choose the item you want to edit");
                 int itemNum = Integer.parseInt(scanner.nextLine());
-                System.out.println("What would you like to edit quantiy to?...");
+                System.out.println("What would you like to edit quantity to?...");
                 int number = Integer.parseInt(scanner.nextLine());
 
                 ListItem item = items.get(itemNum - 1);
